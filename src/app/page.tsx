@@ -41,17 +41,6 @@ export default function Home() {
     console.log(number) 
 }
 
-
-function obtain(checkN:any){
-  let counts = 0
-  let countsSaved = 0
-  while (checkN % 2 == 0){
-    checkN >>=1
-    counts++
-    countsSaved = counts
-  }
-  return counts
-}
   return (
       <form onSubmit={strongestNumber} className="container col-6 text-center mt-4 bg-light">
         <div>
